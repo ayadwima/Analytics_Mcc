@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() , CategoriesAdapterElement.onCategoryIt
 
         val minutes: Long = totalTime / 1000 / 60
         val seconds = (totalTime / 1000 % 60)
-        timeSpendInScreenElement("$minutes m $seconds s","hala123456","MainActivity")
+        timeSpendInScreenElement("$minutes m $seconds s","aya","MainActivity")
 
 
         var i = Intent(this,MainProductsActivity::class.java)
